@@ -13,8 +13,9 @@ body {
   background-repeat: round;   
   background-color: bisque; 
   animation-name: pageopen;
-  animation-duration: 7s;
+  animation-duration: 5s;
   margin: 0;
+  font-family: sans-serif;
 }
 
 @keyframes pageopen {
@@ -224,6 +225,7 @@ img {
 
 .circletext {
   text-align: center;
+  margin-top: 30px;
 }
 
 #circle1  {
@@ -324,6 +326,10 @@ img {
   margin: auto;
 }
 
+.contactustext::placeholder, #enterdetails::placeholder {
+  font-family: sans-serif;
+}
+
 .contactustext {
   width: 90%;
   margin: 2%;
@@ -351,6 +357,10 @@ img {
   border: none;
   cursor: pointer;
   position: sticky;
+}
+
+.ri-arrow-up-s-line {
+  font-size: 25px;
 }
 
 #btnscroll {
