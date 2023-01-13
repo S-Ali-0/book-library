@@ -348,6 +348,15 @@ img {
   border: none;
 }
 
+::placeholder { 
+  font-family: inherit;
+  font-size: 14px; 
+}
+
+textarea {
+  resize: none;
+}
+
 #contactusbutton {
   width: 100px;
   margin-bottom: 20px;
@@ -357,6 +366,7 @@ img {
   border: none;
   cursor: pointer;
   position: sticky;
+  font-size: 14px;
 }
 
 .ri-arrow-up-s-line {
